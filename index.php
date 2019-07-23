@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +26,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo quod
 </div>
 
 <div id="footer">
-<div id="contact">Contact details:<br> Neuro Physiotherapist <br>  Coverdale Road <br>Solihull B927NU <br>Email: physiodirectuk@hotmail.co.uk</div>
+<div id="contact">Contact details:<br> Neuro Physiotherapist <br> Coverdale Road <br> Solihull B927NU <br> Email: <br> physiodirectuk@hotmail.co.uk</div>
 
 <div id="formm">
 <form action="" type="submit">
@@ -76,23 +75,18 @@ body {
     object-fit: cover
 }
 
-
 #what {
     padding: 2% 5%;
    
 }
 #main {
-    padding: 1% 5%;
-   
+    padding: 1% 5%; 
 }
-#formm {
-    padding: 2% 5%;
-    width: 30%
-}
+
 #contact {
-   width: 30%;
-   float: right
+    margin-right: 0 auto;  
 }
+
 #welcome {
     text-align: center;
     padding: 3% 5%;
@@ -104,7 +98,9 @@ body {
 }
 
 #footer {
-    padding: 2%
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-between
 }
 </style>
 
